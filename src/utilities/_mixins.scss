@@ -1,0 +1,32 @@
+@mixin btn-cta {
+    font-size: 16px;
+    border-radius: $btn-border-radius;
+    background-color: $btn-cta-text-color;
+    color: $btn-bg-color;
+   padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lobster-Regular', sans-serif;
+    &:hover {
+      background-color:  $btn-text-color;
+      color: $btn-cta-text-color;
+      text-decoration: none;
+    }
+  }
+
+  @mixin btn-styles {
+    border-radius: $btn-border-radius;
+    background-color: $btn-bg-color;
+    color: $btn-text-color;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  
+    &:hover {
+      background-color:  $btn-text-color;
+      color: $btn-bg-color;
+      text-decoration: none;
+    }
+  } 
+
+  

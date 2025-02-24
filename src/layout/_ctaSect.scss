@@ -1,0 +1,35 @@
+.cta-section {
+    background-image: url('/assets/CTA-Bg/Bg-cta.svg'); 
+    background-size: cover; 
+    background-position: center; 
+    color: #fff; 
+    position: relative;
+    text-align: center;
+    @media (min-width: 768px) {
+      background-image: url('/assets/CTA-Bg/Bg-Desktop.png'); 
+      background-size: cover; 
+      background-position: center; 
+    }
+    .cta-content {
+      position: relative;
+      z-index: 2; 
+    }
+    .ctaInnerSect{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 138px;
+      width: 100%;
+      @media (min-width: 768px) {
+        height: 280px;
+      }
+    }
+  
+    .btn-cta{
+      @include btn-cta;
+      @media (min-width: 768px) {
+        font-size: 40px; 
+      }
+    }
+    
+  }

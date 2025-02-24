@@ -1,0 +1,16 @@
+$theme-colors: (
+  
+"primary": #F5929B,      
+"secondary": #4E1A20,     
+"success": #242424,     
+"danger": #FFFFFF      
+);
+$primary: map-get($theme-colors, "primary");
+$secondary: map-get($theme-colors, "secondary");
+$success: map-get($theme-colors, "success");
+$danger: map-get($theme-colors, "danger");
+
+$btn-border-radius: 1em;
+$btn-bg-color: $danger;
+$btn-text-color: $primary;
+$btn-cta-text-color:  $secondary; 

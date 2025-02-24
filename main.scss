@@ -1,0 +1,34 @@
+
+//btns
+@import 'src/utilities/variables';
+
+
+
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+//Utilities
+@import 'src/utilities/variables';
+@import 'src/utilities/mixins';
+@import 'src/components/buttons';
+//layout
+@import 'src/layout/header';
+@import 'src/layout/heroSect';
+@import 'src/layout/products';
+@import 'src/layout/ctaSect';
+@import 'src/layout/footer.scss';
+//fonts & typo
+@import 'src/fonts/lobster';
+@import 'src/fonts/openSans';
+@import 'src/components/typography';
+
+
+
+
+
+
+  
+
+
+

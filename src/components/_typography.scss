@@ -1,0 +1,27 @@
+
+
+$h1-font-size-mobile: 28px; 
+$h1-font-size-desktop: 38px; 
+$h2-font-size-mobile: 18px; 
+$h2-font-size-desktop: 22px; 
+
+// Apply styles for h1
+h1 {
+  font-size: $h1-font-size-mobile; // Default font size for mobile
+  font-family: 'Lobster-Regular', sans-serif;
+  color: $secondary;
+  padding-bottom: 10px;
+
+  // Media query for desktop
+  @media (min-width: 768px) {
+    font-size: $h1-font-size-desktop; 
+  }
+}
+h2{
+  font-size: $h2-font-size-mobile; // Default font size for mobile
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 600; 
+  @media (min-width: 768px) {
+    font-size: $h2-font-size-desktop; 
+  }
+}

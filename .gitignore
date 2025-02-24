@@ -1,0 +1,6 @@
+# Node.js dependencies
+node_modules/
+
+# SCSS and CSS build files
+*.css.map
+*.css

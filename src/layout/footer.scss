@@ -1,0 +1,40 @@
+.footer{
+    .list-unstyled {
+      padding-block: 1em;
+      line-height: 1.8em;
+    }
+     li a{
+      color: $danger;
+      
+      &:hover {
+        color: $primary;
+        text-decoration: none;
+      }
+    
+    }
+    .social-icons{
+      text-align: center;
+      a svg{
+        fill: $danger;
+        height: 26.6px;
+        width: 25px;
+        &:hover {
+          fill: $primary;
+        }
+        @media (min-width: 768px) {
+          height: 45.5px ;
+          width: 42px;
+        }
+      }
+    }
+    
+    .LogoFtr img{
+      height: 71px ;
+      width: 68px;
+      @media (min-width: 768px) {
+        height: 158px ;
+        width: 158px;
+      }
+    }
+    
+  }

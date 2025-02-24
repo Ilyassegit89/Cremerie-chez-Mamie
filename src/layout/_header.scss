@@ -1,0 +1,44 @@
+.logoCCM img {
+    width: 84px; /* Default width */
+    height: 45px; /* Default height */
+    @media (min-width: 767px) {
+          width: 117px;   
+          height: 60px;  
+      }
+  }
+
+nav{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+#navbarNav{
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+    ul li a{
+      color: $success;
+      font-family: 'Open-Sans', sans-serif;
+      font-weight: 600;
+      margin-inline: 5px;
+      &:hover {
+        
+        color: $primary;
+        
+      }
+    }
+  }
+
+  .navbar-toggler{
+    border: none;
+  }
+  .navbar-collapse.collapsing, .navbar-collapse.show {
+    height: 100vh;
+}
+.navbar-collapse.collapsing, .navbar-collapse.show {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2em;
+  transition: height 0.5s ease, opacity 0.5s ease;
+}
