@@ -3,3 +3,5 @@ node_modules/
 
 # SCSS and CSS build files
 *.css.map
+.env
+*.log
